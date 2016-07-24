@@ -1,0 +1,13 @@
+{% extends 'appsispac/base.html' %}
+{% block conteudo %}
+     <h1 style="margin: 30px">{% if frequencias %}
+         Editar Frequencia{% else %}
+         Criar Frequencia{% endif%}
+     </h1>
+        <form method="POST" role="form">
+        {% csrf_token %}
+        {{ form.as_table }}
+        <input type="submit" class="btn btn-primary" value="Salvar">
+        </form>
+
+{% endblock %}

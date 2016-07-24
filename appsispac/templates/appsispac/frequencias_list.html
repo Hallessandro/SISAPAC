@@ -1,0 +1,21 @@
+{% extends 'appsispac/base.html' %}
+{% block conteudo %}
+
+  <table class="table">
+    <tr>
+      <th>Sala</th>
+      <th>Disciplina</th>
+      <th>Situação</th>
+      <th>Operação</th>
+    </tr>
+    {% for frequencia in frequencias %}
+      <tr>
+        <td>{{ frequencia.sala }}</td>
+        <td>{{ frequencia.disciplina }}</td>
+        <td>{{ frequencia.situacao }}</td>
+        <td><a href="{% url 'frequencias_update' frequencia.pk %}" class="btn btn-success">Registrar</a></td>
+      <tr>
+    {% endfor %}
+  </table>
+
+{% endblock %}
