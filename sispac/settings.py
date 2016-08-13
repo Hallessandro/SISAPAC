@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'sispac.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sispac',
+        'NAME': 'sisapac',
         'USER': 'root',
         'PASSWORD': 'SAMEmistake',
         'HOST': 'localhost',
