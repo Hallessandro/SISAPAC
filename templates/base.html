@@ -47,13 +47,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">SISAPAC</a>
+                <a class="navbar-brand" href="{% url 'home' %}">SISAPAC</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="{% url 'frequencias_list' %}">Frequência</a>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Funcionarios <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="{% url 'funcionario_list' %}">Listar Funcionários</a></li>
+                        <li><a href="#">Adicionar Funcionarios</a></li>
+                      </ul>
+                    </li>
+                     <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Professores<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="{% url 'funcionario_list' %}">Listar</a></li>
+                        <li><a href="#">Adicionar</a></li>
+                          <li><a href="#">Atualizar registro</a></li>
+                      </ul>
                     </li>
                     <li>
                         <a href="#">Reserva de Sala</a>

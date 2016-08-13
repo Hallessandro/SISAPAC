@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+    <h3>Lista de Funcionários</h3>
+    <hr>
+    <table class="table table-hover table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Matrícula</th>
+                <th colspan="2">Operações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for funcionario in funcionarios %}
+               <tr>
+                <td>{{ funcionario.nome }}</td>
+                <td>{{ funcionario.matricula }}</td>
+                <td><a href="#" class="btn btn-primary">Atualizar</a></td>
+                <td><a href="#" class="btn btn-danger">Excluir</a></td>
+               </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

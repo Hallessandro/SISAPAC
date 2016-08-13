@@ -1,0 +1,38 @@
+ {# Verifica se a paginação foi definida na view #}
+  <nav>
+    <ul class="pagination"> {# Estilo do Bootstrap, incluido no arquivo base #}
+      {% if page_obj.has_previous %} {# Verifica se existe página anterior #}
+        <li>
+          <a href="?page={{ page_obj.previous_page_number }}"> {# Cria link para a próxima página #}
+            <span>Anterior</span>
+          </a>
+        </li>
+      {% else %} {# Caso contrário desabilita o link #}
+        <li class="disabled">
+          <a href="#">
+            <span>Anterior</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% for page in paginator.page_range %} {# Gera o número de páginas existentes #}
+        <li {% if page == page_obj.number %}class="active"{% endif %}>
+          <a href="?page={{ page }}">{{ page }}</a> {# Cria links para as páginas existentes #}
+        </li>
+      {% endfor %}
+
+      {% if page_obj.has_next %} {# Verifica se existe próxima página #}
+        <li>
+          <a href="?page={{ page_obj.next_page_number }}"> {# Caso positivo, atualiza o link do próximo com o número da página #}
+            <span>Próximo</span>
+          </a>
+        </li>
+      {% else %}
+        <li {% if not page_obj.has_next %}class="disabled"{% endif %}>
+          <a href="#">
+            <span>Próximo</span>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
