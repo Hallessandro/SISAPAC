@@ -14,7 +14,7 @@ def funcionario_list(request):
     else:
         funcionarios = Funcionario.objects.all().order_by('nome')
         criterio = ""
-    paginator = Paginator(funcionarios, 2)
+    paginator = Paginator(funcionarios, 5)
     page = request.GET.get('page')
     try:
         funcionarios = paginator.page(page)
@@ -25,4 +25,20 @@ def funcionario_list(request):
     dados = {'funcionarios': funcionarios, 'criterio': criterio, 'paginator': paginator, 'page_obj':funcionarios}
     return render(request, 'funcionario/funcionario_list.html', dados)
 
-# def funcionario_update(request):
+def professor_list(request):
+    criterio = request.GET.get('criterio')
+    if(criterio):
+        professores = Professor.objects.filter(nome__contains=criterio)
+    else:
+        professores = Professor.objects.all().order_by('nome')
+        criterio = ""
+    paginator = Paginator(professores,5)
+    page = request.GET.get('page')
+    try:
+        professores = paginator.page(page)
+    except PageNotAnInteger:
+        professores = paginator.page(1)
+    except EmptyPage:
+        professores = paginator.page(paginator.num_pages)
+    dados = {'professores':professores, 'criterio':criterio, 'paginator':paginator, 'page_obj':professores}
+    return render(request, 'professor/professor_list.html', dados)

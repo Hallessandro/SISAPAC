@@ -11,17 +11,17 @@ class Funcionario(models.Model):
 class Horarios(models.Model):
     HORARIOS = (
         ('Vazio', 'Indefinido'),
-        ('1M', '07:00 - 08:30'),
-        ('2M', '08:50 - 10:20'),
-        ('3M', '10:30 - 12:00'),
-        ('1T', '13:00 - 14:30'),
-        ('2T', '14:50 - 16:20'),
-        ('3T', '16:30 - 18:00'),
-        ('1N', '18:00 - 19:50'),
-        ('2N', '20:00 - 22:00'),
+        ('07:00 - 08:30', '07:00 - 08:30'),
+        ('08:50 - 10:20', '08:50 - 10:20'),
+        ('10:30 - 12:00', '10:30 - 12:00'),
+        ('13:00 - 14:30', '13:00 - 14:30'),
+        ('14:50 - 16:20', '14:50 - 16:20'),
+        ('16:30 - 18:00', '16:30 - 18:00'),
+        ('18:00 - 19:50', '18:00 - 19:50'),
+        ('20:00 - 22:00', '20:00 - 22:00'),
     )
     horarios = models.CharField(
-        max_length=5,
+        max_length=30,
         choices=HORARIOS,
         default='Vazio',
     )
@@ -47,7 +47,7 @@ class Horario_Professor(models.Model):
     disciplina = models.CharField("Disciplina", max_length=255)
 
     def __str__(self):
-        return self.turma
+        return self.horario.horarios + " - " + self.turma
 
 class Professor(Funcionario):
     horario = models.ManyToManyField(Horario_Professor)

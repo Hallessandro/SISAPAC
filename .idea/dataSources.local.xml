@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="02220f5f-b2e0-4611-98e1-86c8c3ba2064">
+      <user-name>root</user-name>
+      <user-password>dff9dfebdfe7dfefdfc7dfc3dfd9dfdedfcbdfc1dfcf</user-password>
+      <schema-pattern>sisapac.*</schema-pattern>
+      <default-schemas>sisapac.*</default-schemas>
+    </data-source>
+  </component>
+</project>

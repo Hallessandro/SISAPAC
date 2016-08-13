@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+    <table class="table table-hover table-condensed table-bordered">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Matrícula</th>
+                <th>Turmas</th>
+                <th>Operações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for professor in professores %}
+                <tr>
+                    <td>{{ professor.nome }}</td>
+                    <td>{{ professor.matricula }}</td>
+                    <td>
+                    {% for horario in professor.horario.all %}
+                        <p>{{ horario }}</p>
+                    {% endfor %}
+                    </td>
+                    <td><a href="#" class="btn btn-primary">Atualizar</a></td>
+                </tr>
+            {% endfor %}
+            
+        </tbody>
+    </table>
+{% endblock %}
