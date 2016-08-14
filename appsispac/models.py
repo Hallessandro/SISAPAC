@@ -27,7 +27,11 @@ class Horarios(models.Model):
     )
     def __str__(self):
         return self.horarios
-    
+
+class Professor(Funcionario):
+    def __str__(self):
+        return self.nome
+
 class Horario_Professor(models.Model):
     WEEKDAYS = (
         ('ND', 'Não definido'),
@@ -45,12 +49,10 @@ class Horario_Professor(models.Model):
     horario = models.ForeignKey(Horarios)
     turma = models.CharField("Turma", max_length=150)
     disciplina = models.CharField("Disciplina", max_length=255)
+    professor = models.ForeignKey(Professor, on_delete=models.PROTECT)
 
     def __str__(self):
         return self.horario.horarios + " - " + self.turma
-
-class Professor(Funcionario):
-    horario = models.ManyToManyField(Horario_Professor)
 
 class Sala(models.Model):
     sigla = models.CharField("Sigla", max_length=10)

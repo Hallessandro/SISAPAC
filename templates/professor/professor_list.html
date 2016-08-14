@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 {% block conteudo %}
+    <form action="{%  url 'professor_list' %}" method="get" class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" id="criterio" name= "criterio" value="{{ criterio }}" placeholder="Nome do Professor" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
     <table class="table table-hover table-condensed table-bordered">
         <thead>
             <tr>
@@ -15,14 +21,18 @@
                     <td>{{ professor.nome }}</td>
                     <td>{{ professor.matricula }}</td>
                     <td>
-                    {% for horario in professor.horario.all %}
-                        <p>{{ horario }}</p>
+                    {% for horario in horarios %}
+                        {% if professor.nome == horario.professor.nome %}
+                            <p><a href="{% url 'professor_detail' professor.pk %}">{{ horario }}</a></p>
+                        {% endif %}
                     {% endfor %}
                     </td>
-                    <td><a href="#" class="btn btn-primary">Atualizar</a></td>
+                    <td><a href="{% url 'professor_update' professor.pk %}" class="btn btn-primary">Atualizar</a></td>
                 </tr>
             {% endfor %}
             
         </tbody>
     </table>
+
+    {% include 'utils/paginacao.html' %}
 {% endblock %}

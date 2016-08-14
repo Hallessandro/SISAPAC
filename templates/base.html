@@ -63,8 +63,8 @@
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Professores<span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="{% url 'professor_list' %}">Listar</a></li>
-                        <li><a href="#">Adicionar</a></li>
-                          <li><a href="#">Atualizar registro</a></li>
+                        <li><a href="{% url 'professor_new' %}">Adicionar</a></li>
+                          <li><a href="{% url 'horario_professor_new' %}">Adicionar horário</a></li>
                       </ul>
                     </li>
                     <li>

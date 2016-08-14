@@ -603,7 +603,7 @@ model</columns>
       </column>
       <column id="148" parent="18" name="horarios">
         <mandatory>1</mandatory>
-        <data-type>varchar(5)</data-type>
+        <data-type>varchar(30)</data-type>
       </column>
       <key id="149" parent="18" name="PRIMARY">
         <columns>id</columns>
