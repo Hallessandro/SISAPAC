@@ -191,7 +191,7 @@ def frequencia_register(request, pk):
         frequencia.data_registro = None
         frequencia.save()
         cancelamento = Cancelamento_Registro()
-        cancelamento.data_cancelamento = today = DT.date.today()
+        cancelamento.data_cancelamento = DT.date.today()
         cancelamento.nome = request.GET.get('nome')
         cancelamento.motivo = request.GET.get('motivo')
         cancelamento.registro = frequencia
@@ -200,5 +200,6 @@ def frequencia_register(request, pk):
 
 def frequencia_detail(request,pk):
     frequencia = Registro_Frequencia.objects.get(id=pk)
-    cancelamentos = Cancelamento_Registro.objects.filter(registro__registro_frequencia=frequencia)
+    cancelamentos = Cancelamento_Registro.objects.filter(registro=pk)
+    #cancelamentos = Cancelamento_Registro.objects.filter(registro__registro_frequencia=frequencia.id)
     return render(request, 'frequencia/frequencia_detail.html', {'frequencia':frequencia, 'cancelamentos':cancelamentos})

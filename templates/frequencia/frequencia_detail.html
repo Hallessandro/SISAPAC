@@ -11,28 +11,33 @@
         <a href="#" class="list-group-item">Registro de frequência feito em: {{ frequencia.data_registro }}</a>
         <br>
     </div>
-    <hr>
-    <h3>Alterações nos Registros</h3>
-    <table class="table table-bordered table-hover">
-        <thead>
-            <tr>
-                <th>Data</th>
-                <th>Nome</th>
-                <th>Motivo</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for c in cancelamentos %}
-            <tr>
-                <td>{{ c.data_cancelamento }}</td>
-                <td>{{ c.nome }}</td>
-                <td>{{ c.motivo }}</td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
 
-    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Cancelar registro</button>
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Cancelar registro</button>
+    <br><br>
+    <div name="listacancelamentos" id="listacancelamentos">
+        <hr>
+        <h3>Alterações nos Registros</h3>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Nome</th>
+                    <th>Motivo</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for c in cancelamentos %}
+                <tr>
+                    <td>{{ c.data_cancelamento }}</td>
+                    <td>{{ c.nome }}</td>
+                    <td>{{ c.motivo }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+        <p><button type="button" id="showcancelamentos" name="showcancelamentos" class="btn btn-primary">Exibir registros de cancelamentos</button>
+        <button type="button" class="btn btn-warning" id="hidecancelamentos" name="hidecancelamentos">Ocultar registros de cancelamentos</button></p>
 
     <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
@@ -71,4 +76,17 @@
           </div>
         </div>
 
+
+    <script>
+    $(document).ready(function () {
+       $('#listacancelamentos').hide();
+       $('#showcancelamentos').click(function () {
+           $('#listacancelamentos').show();
+       });
+
+       $('#hidecancelamentos').click(function () {
+           $('#listacancelamentos').hide();
+       });
+    });
+    </script>
 {% endblock %}
