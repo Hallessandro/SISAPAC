@@ -1,8 +1,10 @@
 from django.core.paginator import PageNotAnInteger, EmptyPage, Paginator
+from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from appsispac.models import *
 from appsispac.forms import *
 from django.forms import formset_factory
+import datetime as DT
 # Create your views here.
 def home(request):
     return render(request, 'base.html')
@@ -118,17 +120,6 @@ def professor_update(request,pk):
     dados = {'form':form, 'professor':professor}
     return render(request, 'professor/professor_form.html', dados)
 
-def funcionario_update(request,pk):
-    funcionario = Funcionario.objects.get(id=pk)
-    if(request.method=='POST'):
-        form=FuncionarioForm(request.POST,instance=funcionario)
-        if (form.is_valid()):
-            form.save()
-            return redirect('funcionario_list')
-    else:
-        form=FuncionarioForm(instance=funcionario)
-    dados ={'form':form,'funcionario':funcionario}
-    return render(request,'funcionario/funcionario_form.html',dados)
 def professor_delete(request,pk):
     professor = Professor.objects.get(id=pk)
     professor.delete()
@@ -145,3 +136,70 @@ def horario_professor_new(request):
         dados = {'form':form}
         return render(request, 'horario/horario_form.html',dados)
 
+def frequencia_list(request):
+    today = DT.date.today()
+    dayofweek = today.strftime("%A")
+    criterio = request.GET.get('criterio')
+    day = ""
+    if(dayofweek == "Monday"):
+        day = "SEG"
+    elif (dayofweek == "Tuesday"):
+        day = "TER"
+    elif (dayofweek == "Wednesday"):
+        day = "QUA"
+    elif (dayofweek == "Thursday"):
+        day = "QUI"
+    elif (dayofweek == "Friday"):
+        day = "SEX"
+    else:
+        day = "Dia inválido"
+    frequencias = Registro_Frequencia.objects.filter(horarios__weekdays__contains=day)
+    paginator = Paginator(frequencias, 5)
+    page = request.GET.get('page')
+    try:
+        frequencias = paginator.page(page)
+    except PageNotAnInteger:
+        frequencias = paginator.page(1)
+    except EmptyPage:
+        frequencias = paginator.page(paginator.num_pages)
+    dados = {'frequencias': frequencias, 'paginator': paginator, 'page_obj': frequencias}
+    return render(request, 'frequencia/frequencia_list.html', dados)
+
+def frequencia_new(request):
+    today = DT.date.today()
+    dayofweek = today.strftime("%A")
+    if(request.method == "POST"):
+        form = Registro_FrequenciaForm(request.POST)
+        if(form.is_valid()):
+            form.save()
+            return redirect('frequencia_list')
+    else:
+        form = Registro_FrequenciaForm()
+        dados = {'form':form}
+        return render(request,'frequencia/frequencia_form.html', dados)
+
+def frequencia_register(request, pk):
+    criterio = request.GET.get('criterio')
+    if(criterio == "registrar"):
+        frequencia = Registro_Frequencia.objects.get(id=pk)
+        frequencia.registro_frequencia = True
+        frequencia.data_registro = DT.date.today()
+        frequencia.save()
+    else:
+        frequencia = Registro_Frequencia.objects.get(id=pk)
+        frequencia.registro_frequencia = False
+        frequencia.data_registro = None
+        frequencia.save()
+        cancelamento = Cancelamento_Registro()
+        cancelamento.data_cancelamento = DT.date.today()
+        cancelamento.nome = request.GET.get('nome')
+        cancelamento.motivo = request.GET.get('motivo')
+        cancelamento.registro = frequencia
+        cancelamento.save()
+    return redirect('frequencia_list')
+
+def frequencia_detail(request,pk):
+    frequencia = Registro_Frequencia.objects.get(id=pk)
+    cancelamentos = Cancelamento_Registro.objects.filter(registro=pk)
+    #cancelamentos = Cancelamento_Registro.objects.filter(registro__registro_frequencia=frequencia.id)
+    return render(request, 'frequencia/frequencia_detail.html', {'frequencia':frequencia, 'cancelamentos':cancelamentos})

@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block conteudo %}
+      <center><h2>Detalhes da frequência</h2></center>
+    <hr>
+    <div class="list-group">
+    	<a href="#" class="list-group-item active">Nome: {{frequencia.horarios.professor.nome}} - Matricula: {{frequencia.horarios.professor.matricula}}</a>
+        <a href="#" class="list-group-item">Turma: {{frequencia.horarios.turma}}</a>
+        <a href="#" class="list-group-item">Disciplina {{ frequencia.horarios.disciplina }}</a>
+        <a href="#" class="list-group-item">Horario {{ frequencia.horarios }} - Sala {{ frequencia.sala }} - Dia {{ frequencia.data_frequencia }}</a>
+        <a href="#" class="list-group-item">Registro de frequência feito em: {{ frequencia.data_registro }}</a>
+        <br>
+    </div>
+
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">Cancelar registro</button>
+    <br><br>
+    <div name="listacancelamentos" id="listacancelamentos">
+        <hr>
+        <h3>Alterações nos Registros</h3>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Nome</th>
+                    <th>Motivo</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for c in cancelamentos %}
+                <tr>
+                    <td>{{ c.data_cancelamento }}</td>
+                    <td>{{ c.nome }}</td>
+                    <td>{{ c.motivo }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+        <p><button type="button" id="showcancelamentos" name="showcancelamentos" class="btn btn-primary">Exibir registros de cancelamentos</button>
+        <button type="button" class="btn btn-warning" id="hidecancelamentos" name="hidecancelamentos">Ocultar registros de cancelamentos</button></p>
+
+    <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+            <form role="form" action="{% url 'frequencia_register' frequencia.pk %}">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Alterar registro de frequência</h4>
+                </div>
+
+              <div class="modal-body">
+                  <div class="alert alert-danger">
+                    <strong>Atenção!</strong> Alterar registros é algo irreversivel, então tome cuidado.
+                  </div>
+
+                      <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome">
+                      </div>
+                      <div class="form-group">
+                        <label for="motivo">Motivo:</label>
+                          <textarea name="motivo" id="motivo" rows="5" class="form-control"></textarea>
+                      </div>
+
+              </div>
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" data-dismiss="modal">Cancelar</button>
+                  <button type="submit" class="btn btn-primary">Registrar</button>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+
+
+    <script>
+    $(document).ready(function () {
+       $('#listacancelamentos').hide();
+       $('#showcancelamentos').click(function () {
+           $('#listacancelamentos').show();
+       });
+
+       $('#hidecancelamentos').click(function () {
+           $('#listacancelamentos').hide();
+       });
+    });
+    </script>
+{% endblock %}

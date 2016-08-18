@@ -16,3 +16,8 @@ class HorarioProfessorForm(ModelForm):
     class Meta:
         model = Horario_Professor
         fields = ('weekdays', 'horario', 'turma', 'disciplina','professor')
+
+class Registro_FrequenciaForm(ModelForm):
+    class Meta:
+        model = Registro_Frequencia
+        fields = ('data_registro','data_frequencia','sala','horarios','registro_frequencia')

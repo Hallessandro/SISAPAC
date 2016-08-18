@@ -52,7 +52,7 @@ class Horario_Professor(models.Model):
     professor = models.ForeignKey(Professor, on_delete=models.PROTECT)
 
     def __str__(self):
-        return self.horario.horarios + " - " + self.turma
+        return self.weekdays + " - " + self.horario.horarios
 
 class Sala(models.Model):
     sigla = models.CharField("Sigla", max_length=10)
@@ -61,12 +61,14 @@ class Sala(models.Model):
         return self.sigla
 
 class Registro_Frequencia(models.Model):
-    data = models.DateField("Data do registro")
+    data_registro = models.DateField("Data do registro", blank=True, null=True)
+    #data_frequencia é o dia ao qual a frequência está relacionada
+    data_frequencia = models.DateField("Data da frequência")
     sala = models.ForeignKey(Sala, on_delete=models.PROTECT)
-    professor = models.ForeignKey(Professor, on_delete=models.PROTECT)
-    horario = models.ForeignKey(Horarios)
+    horarios = models.ForeignKey(Horario_Professor, on_delete=models.PROTECT)
+    registro_frequencia = models.BooleanField("Registro de Frequência", default=False)
     def __str__(self):
-        return self.professor.nome
+        return self.horarios.professor.nome + " " + str(self.registro_frequencia)
 
 class Reserva_Sala(models.Model):
     data = models.DateField("Data do Registro")
@@ -75,3 +77,14 @@ class Reserva_Sala(models.Model):
     horario = models.ForeignKey(Horarios)
     def __str__(self):
         return self.funcionario.nome
+
+class Cancelamento_Registro(models.Model):
+    data_cancelamento = models.DateField("Data do cancelamento")
+    nome = models.CharField("Nome", max_length=255)
+    #Neste momento nome recebe um nome digitado, porém após implementar autenticação
+    #ele deve receber o nome da pessoa na sessão atual
+    motivo = models.CharField("Motivo", max_length=1000)
+    registro = models.ForeignKey(Registro_Frequencia, on_delete=models.PROTECT)
+
+    def __str__(self):
+        return self.nome

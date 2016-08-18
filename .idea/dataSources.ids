@@ -25,7 +25,7 @@
       <table id="16" parent="1" name="django_session"/>
       <table id="17" parent="1" name="appsispac_horario_professor"/>
       <table id="18" parent="1" name="appsispac_horarios"/>
-      <table id="19" parent="1" name="appsispac_professor_horario"/>
+      <table id="19" parent="1" name="appsispac_cancelamento_registro"/>
       <column id="20" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
@@ -436,149 +436,146 @@ model</columns>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="111" parent="14" name="data">
+      <column id="111" parent="14" name="data_registro">
+        <data-type>date</data-type>
+      </column>
+      <column id="112" parent="14" name="data_frequencia">
         <mandatory>1</mandatory>
         <data-type>date</data-type>
       </column>
-      <column id="112" parent="14" name="horario_id">
+      <column id="113" parent="14" name="registro_frequencia">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="114" parent="14" name="horarios_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="113" parent="14" name="sala_id">
+      <column id="115" parent="14" name="sala_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="114" parent="14" name="professor_id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-      </column>
-      <index id="115" parent="14" name="appsispac_registro_frequencia_cc2cf539">
+      <index id="116" parent="14" name="appsispac_horarios_id_9e62a286_fk_appsispac_horario_professor_id">
+        <columns>horarios_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="117" parent="14" name="appsispac_registro_frequencia_cc2cf539">
         <columns>sala_id</columns>
-        <desc-columns></desc-columns>
-      </index>
-      <index id="116" parent="14" name="appsispac_registro_frequencia_fa68148b">
-        <columns>professor_id</columns>
-        <desc-columns></desc-columns>
-      </index>
-      <index id="117" parent="14" name="appsispac_registro__horario_id_d355ab11_fk_appsispac_horarios_id">
-        <columns>horario_id</columns>
         <desc-columns></desc-columns>
       </index>
       <key id="118" parent="14" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="119" parent="14" name="appsispac_registro_frequen_sala_id_8ed2084c_fk_appsispac_sala_id">
+      <foreign-key id="119" parent="14" name="appsispac_horarios_id_9e62a286_fk_appsispac_horario_professor_id">
+        <columns>horarios_id</columns>
+        <ref-key>~.appsispac_horario_professor.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="120" parent="14" name="appsispac_registro_frequen_sala_id_8ed2084c_fk_appsispac_sala_id">
         <columns>sala_id</columns>
         <ref-key>~.appsispac_sala.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="120" parent="14" name="appsispac_registro__horario_id_d355ab11_fk_appsispac_horarios_id">
-        <columns>horario_id</columns>
-        <ref-key>~.appsispac_horarios.PRIMARY</ref-key>
-        <cascade-update-rule>restrict</cascade-update-rule>
-        <cascade-delete-rule>restrict</cascade-delete-rule>
-      </foreign-key>
-      <foreign-key id="121" parent="14" name="professor_id_cda18c1a_fk_appsispac_professor_funcionario_ptr_id">
-        <columns>professor_id</columns>
-        <ref-key>~.appsispac_professor.PRIMARY</ref-key>
-        <cascade-update-rule>restrict</cascade-update-rule>
-        <cascade-delete-rule>restrict</cascade-delete-rule>
-      </foreign-key>
-      <column id="122" parent="15" name="id">
+      <column id="121" parent="15" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="123" parent="15" name="data">
+      <column id="122" parent="15" name="data">
         <mandatory>1</mandatory>
         <data-type>date</data-type>
       </column>
-      <column id="124" parent="15" name="funcionario_id">
+      <column id="123" parent="15" name="funcionario_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="125" parent="15" name="horario_id">
+      <column id="124" parent="15" name="horario_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="126" parent="15" name="sala_id">
+      <column id="125" parent="15" name="sala_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <index id="127" parent="15" name="appsispac_reserva_sala_932b6051">
+      <index id="126" parent="15" name="appsispac_reserva_sala_932b6051">
         <columns>horario_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="128" parent="15" name="appsispac_reserva_sala_cc2cf539">
+      <index id="127" parent="15" name="appsispac_reserva_sala_cc2cf539">
         <columns>sala_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="129" parent="15" name="appsispac_reserva_sala_fe820ca7">
+      <index id="128" parent="15" name="appsispac_reserva_sala_fe820ca7">
         <columns>funcionario_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="130" parent="15" name="PRIMARY">
+      <key id="129" parent="15" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="131" parent="15" name="appsispac_reserva_sala_sala_id_1fb8d9fc_fk_appsispac_sala_id">
+      <foreign-key id="130" parent="15" name="appsispac_reserva_sala_sala_id_1fb8d9fc_fk_appsispac_sala_id">
         <columns>sala_id</columns>
         <ref-key>~.appsispac_sala.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="132" parent="15" name="appsispac_reserva_s_horario_id_d4e1a496_fk_appsispac_horarios_id">
+      <foreign-key id="131" parent="15" name="appsispac_reserva_s_horario_id_d4e1a496_fk_appsispac_horarios_id">
         <columns>horario_id</columns>
         <ref-key>~.appsispac_horarios.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="133" parent="15" name="appsispac_re_funcionario_id_e2a7d5fb_fk_appsispac_funcionario_id">
+      <foreign-key id="132" parent="15" name="appsispac_re_funcionario_id_e2a7d5fb_fk_appsispac_funcionario_id">
         <columns>funcionario_id</columns>
         <ref-key>~.appsispac_funcionario.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="134" parent="16" name="session_key">
+      <column id="133" parent="16" name="session_key">
         <mandatory>1</mandatory>
         <data-type>varchar(40)</data-type>
       </column>
-      <column id="135" parent="16" name="session_data">
+      <column id="134" parent="16" name="session_data">
         <mandatory>1</mandatory>
         <data-type>longtext</data-type>
       </column>
-      <column id="136" parent="16" name="expire_date">
+      <column id="135" parent="16" name="expire_date">
         <mandatory>1</mandatory>
         <data-type>datetime(6)</data-type>
       </column>
-      <index id="137" parent="16" name="django_session_de54fa62">
+      <index id="136" parent="16" name="django_session_de54fa62">
         <columns>expire_date</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="138" parent="16" name="PRIMARY">
+      <key id="137" parent="16" name="PRIMARY">
         <columns>session_key</columns>
         <primary>1</primary>
       </key>
-      <column id="139" parent="17" name="id">
+      <column id="138" parent="17" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="140" parent="17" name="weekdays">
+      <column id="139" parent="17" name="weekdays">
         <mandatory>1</mandatory>
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="141" parent="17" name="turma">
+      <column id="140" parent="17" name="turma">
         <mandatory>1</mandatory>
         <data-type>varchar(150)</data-type>
       </column>
-      <column id="142" parent="17" name="disciplina">
+      <column id="141" parent="17" name="disciplina">
         <mandatory>1</mandatory>
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="143" parent="17" name="horario_id">
+      <column id="142" parent="17" name="horario_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="143" parent="17" name="professor_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
@@ -586,70 +583,71 @@ model</columns>
         <columns>horario_id</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="145" parent="17" name="PRIMARY">
+      <index id="145" parent="17" name="appsispac_horario_professor_fa68148b">
+        <columns>professor_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="146" parent="17" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="146" parent="17" name="appsispac_horario_p_horario_id_02174a12_fk_appsispac_horarios_id">
+      <foreign-key id="147" parent="17" name="appsispac_horario_p_horario_id_02174a12_fk_appsispac_horarios_id">
         <columns>horario_id</columns>
         <ref-key>~.appsispac_horarios.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="147" parent="18" name="id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-        <sequence-identity>1</sequence-identity>
-      </column>
-      <column id="148" parent="18" name="horarios">
-        <mandatory>1</mandatory>
-        <data-type>varchar(30)</data-type>
-      </column>
-      <key id="149" parent="18" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <column id="150" parent="19" name="id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-        <sequence-identity>1</sequence-identity>
-      </column>
-      <column id="151" parent="19" name="professor_id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="152" parent="19" name="horario_professor_id">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-      </column>
-      <index id="153" parent="19" name="appsispac_professor_horario_professor_id_68d8cb27_uniq">
-        <columns>professor_id
-horario_professor_id</columns>
-        <desc-columns></desc-columns>
-        <unique>1</unique>
-      </index>
-      <index id="154" parent="19" name="horario_professor_id_54d7972b_fk_appsispac_horario_professor_id">
-        <columns>horario_professor_id</columns>
-        <desc-columns></desc-columns>
-      </index>
-      <key id="155" parent="19" name="appsispac_professor_horario_professor_id_68d8cb27_uniq">
-        <columns>professor_id
-horario_professor_id</columns>
-        <underlying-index>appsispac_professor_horario_professor_id_68d8cb27_uniq</underlying-index>
-      </key>
-      <key id="156" parent="19" name="PRIMARY">
-        <columns>id</columns>
-        <primary>1</primary>
-      </key>
-      <foreign-key id="157" parent="19" name="horario_professor_id_54d7972b_fk_appsispac_horario_professor_id">
-        <columns>horario_professor_id</columns>
-        <ref-key>~.appsispac_horario_professor.PRIMARY</ref-key>
+      <foreign-key id="148" parent="17" name="professor_id_c5ad2476_fk_appsispac_professor_funcionario_ptr_id">
+        <columns>professor_id</columns>
+        <ref-key>~.appsispac_professor.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="158" parent="19" name="professor_id_731f5e81_fk_appsispac_professor_funcionario_ptr_id">
-        <columns>professor_id</columns>
-        <ref-key>~.appsispac_professor.PRIMARY</ref-key>
+      <column id="149" parent="18" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="150" parent="18" name="horarios">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <key id="151" parent="18" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="152" parent="19" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="153" parent="19" name="data_cancelamento">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="154" parent="19" name="nome">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="155" parent="19" name="motivo">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <column id="156" parent="19" name="registro_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="157" parent="19" name="appsisp_registro_id_d96595b4_fk_appsispac_registro_frequencia_id">
+        <columns>registro_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="158" parent="19" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="159" parent="19" name="appsisp_registro_id_d96595b4_fk_appsispac_registro_frequencia_id">
+        <columns>registro_id</columns>
+        <ref-key>~.appsispac_registro_frequencia.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>

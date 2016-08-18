@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+    <h3>Lista de Registro de Frequências</h3>
+    <hr>
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>Nome do Professor</th>
+                <th>Horario</th>
+                <th>Dia da frequência</th>
+                <th>Sala</th>
+                <th>Data do Registro</th>
+                <th>Status da aula</th>
+                <th>Operação</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for f in frequencias %}
+            <tr>
+                <td>{{ f.horarios.professor.nome }}</td>
+                <td>{{ f.horarios }}</td>
+                <td>{{ f.data_frequencia }}</td>
+                <td>{{ f.sala }}</td>
+                {% if f.data_registro == None %}
+                    <td> Não registrado </td>
+                {% else %}
+                    <td>{{ f.data_registro }}</td>
+                {% endif %}
+                {% if f.registro_frequencia == True %}
+                    <td><a href="{% url 'frequencia_detail' f.pk %}">Aula realizada</a></td>
+                <td>
+                    <form action="{% url 'frequencia_register' f.pk %}">
+                        <input type="hidden" name="criterio" value="registrar">
+                        <input type="submit" class="btn btn-primary" value="Registrar" disabled>
+                    </form>
+                </td>
+                {% else %}
+                    <td>Aula não realizada</td>
+                    <td>
+                        <form action="{% url 'frequencia_register' f.pk %}" disabled="">
+                            <input type="hidden" name="criterio" value="registrar">
+                            <input type="submit" class="btn btn-primary" value="Registrar">
+                        </form>
+                    </td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
