@@ -78,15 +78,16 @@ WSGI_APPLICATION = 'sispac.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sisapac',
-        'USER': 'root',
-        'PASSWORD': 'SAMEmistake',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #'ENGINE': 'django.db.backends.mysql',
+        #'NAME': 'sisapac',
+        #'USER': 'root',
+        #'PASSWORD': 'lua&estrelas',
+        #'HOST': 'localhost',
+        #'PORT': '8000',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
