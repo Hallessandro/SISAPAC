@@ -4,29 +4,10 @@ class Funcionario(models.Model):
     nome = models.CharField("Nome", max_length=200)
     matricula = models.IntegerField("Matricula")
     senha = models.CharField("Senha", max_length=16)
+    nvl_acesso = models.IntegerField()
 
     def __str__(self):
         return self.nome
-
-class Horarios(models.Model):
-    HORARIOS = (
-        ('Vazio', 'Indefinido'),
-        ('07:00 - 08:30', '07:00 - 08:30'),
-        ('08:50 - 10:20', '08:50 - 10:20'),
-        ('10:30 - 12:00', '10:30 - 12:00'),
-        ('13:00 - 14:30', '13:00 - 14:30'),
-        ('14:50 - 16:20', '14:50 - 16:20'),
-        ('16:30 - 18:00', '16:30 - 18:00'),
-        ('18:00 - 19:50', '18:00 - 19:50'),
-        ('20:00 - 22:00', '20:00 - 22:00'),
-    )
-    horarios = models.CharField(
-        max_length=30,
-        choices=HORARIOS,
-        default='Vazio',
-    )
-    def __str__(self):
-        return self.horarios
 
 class Professor(Funcionario):
     def __str__(self):
@@ -46,7 +27,22 @@ class Horario_Professor(models.Model):
         choices=WEEKDAYS,
         default='ND',
     )
-    horario = models.ForeignKey(Horarios)
+    HORARIOS = (
+        ('Vazio', 'Indefinido'),
+        ('07:00 - 08:30', '07:00 - 08:30'),
+        ('08:50 - 10:20', '08:50 - 10:20'),
+        ('10:30 - 12:00', '10:30 - 12:00'),
+        ('13:00 - 14:30', '13:00 - 14:30'),
+        ('14:50 - 16:20', '14:50 - 16:20'),
+        ('16:30 - 18:00', '16:30 - 18:00'),
+        ('18:00 - 19:50', '18:00 - 19:50'),
+        ('20:00 - 22:00', '20:00 - 22:00'),
+    )
+    horario = models.CharField(
+        max_length=30,
+        choices=HORARIOS,
+        default='Vazio',
+    )
     turma = models.CharField("Turma", max_length=150)
     disciplina = models.CharField("Disciplina", max_length=255)
     professor = models.ForeignKey(Professor, on_delete=models.PROTECT)
@@ -65,7 +61,22 @@ class Registro_Frequencia(models.Model):
     #data_frequencia é o dia ao qual a frequência está relacionada
     data_frequencia = models.DateField("Data da frequência")
     sala = models.ForeignKey(Sala, on_delete=models.PROTECT)
-    horarios = models.ForeignKey(Horario_Professor, on_delete=models.PROTECT)
+    HORARIOS = (
+        ('Vazio', 'Indefinido'),
+        ('07:00 - 08:30', '07:00 - 08:30'),
+        ('08:50 - 10:20', '08:50 - 10:20'),
+        ('10:30 - 12:00', '10:30 - 12:00'),
+        ('13:00 - 14:30', '13:00 - 14:30'),
+        ('14:50 - 16:20', '14:50 - 16:20'),
+        ('16:30 - 18:00', '16:30 - 18:00'),
+        ('18:00 - 19:50', '18:00 - 19:50'),
+        ('20:00 - 22:00', '20:00 - 22:00'),
+    )
+    horarios = models.CharField(
+        max_length=30,
+        choices=HORARIOS,
+        default='Vazio',
+    )
     registro_frequencia = models.BooleanField("Registro de Frequência", default=False)
     def __str__(self):
         return self.horarios.professor.nome + " " + str(self.registro_frequencia)
@@ -74,7 +85,22 @@ class Reserva_Sala(models.Model):
     data = models.DateField("Data do Registro")
     sala = models.ForeignKey(Sala, on_delete=models.PROTECT)
     funcionario = models.ForeignKey(Funcionario, on_delete=models.PROTECT)
-    horario = models.ForeignKey(Horarios)
+    HORARIOS = (
+        ('Vazio', 'Indefinido'),
+        ('07:00 - 08:30', '07:00 - 08:30'),
+        ('08:50 - 10:20', '08:50 - 10:20'),
+        ('10:30 - 12:00', '10:30 - 12:00'),
+        ('13:00 - 14:30', '13:00 - 14:30'),
+        ('14:50 - 16:20', '14:50 - 16:20'),
+        ('16:30 - 18:00', '16:30 - 18:00'),
+        ('18:00 - 19:50', '18:00 - 19:50'),
+        ('20:00 - 22:00', '20:00 - 22:00'),
+    )
+    horario = models.CharField(
+        max_length=30,
+        choices=HORARIOS,
+        default='Vazio',
+    )
     def __str__(self):
         return self.funcionario.nome
 
