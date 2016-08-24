@@ -2,12 +2,12 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="1236116741">
     <data-source source="LOCAL" name="Django default" uuid="02220f5f-b2e0-4611-98e1-86c8c3ba2064">
-      <driver-ref>df282d6d-d8ad-4b64-97e2-a4fdc647808b</driver-ref>
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/sispac/settings.py</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../Simplemooc/db.sqlite3</jdbc-url>
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>
@@ -21,10 +21,10 @@
       </driver-properties>
       <libraries>
         <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
         </library>
         <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.11.2.jar</url>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
         </library>
       </libraries>
     </data-source>

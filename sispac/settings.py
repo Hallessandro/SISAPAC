@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
@@ -126,3 +126,19 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+LOGIN_REDIRECT_URL = 'home'
+
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'sispacifrn@gmail.com'
+SERVER_EMAIL = 'sispacifrn@gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'sispacifrn@gmail.com'
+EMAIL_HOST_PASSWORD = 'cha88apocali'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+CONTACT_EMAIL='sispacifrn@gmail.com'
+
+UTH_USER_MODEL='appsispac.Funcionario'

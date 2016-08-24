@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SISAPAC.iml" filepath="$PROJECT_DIR$/.idea/SISAPAC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mysite/.idea/mysite.iml" filepath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ProjetoVendas/.idea/projetovendas.iml" filepath="$PROJECT_DIR$/../ProjetoVendas/.idea/projetovendas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Simplemooc/.idea/simplemooc.iml" filepath="$PROJECT_DIR$/../Simplemooc/.idea/simplemooc.iml" />
     </modules>
   </component>
 </project>

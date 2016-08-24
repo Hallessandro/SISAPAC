@@ -1,12 +1,37 @@
 from django.db import models
+from django.contrib.auth.models import User,Group
+from django import forms
+from django.conf import settings
 
-class Funcionario(models.Model):
+class Funcionario(User):
     nome = models.CharField("Nome", max_length=200)
-    matricula = models.IntegerField("Matricula")
-    senha = models.CharField("Senha", max_length=16)
+    matricula = models.IntegerField("Matricula",unique=True)
+    Email = models.EmailField("E-Mail", max_length=200)
+    senha = models.CharField(max_length=32)
 
+    class Meta:
+        permissions = (('view_funcionario','can see funcionario'),)
+
+    
     def __str__(self):
         return self.nome
+
+class PasswordReset(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,
+    verbose_name='Usuário',related_name='resets')
+    key = models.CharField('Chave',max_length=100,unique=True)
+    created_at = models.DateTimeField('Criado em',auto_now_add=True)
+    confirmed = models.BooleanField('Confirmado',default=False,blank=True)
+    def __str__(self):
+       return '{0} em {1}'.format(self.user,self.created_at)
+
+    class Meta:
+        verbose_name= 'Nova Senha'
+        verbose_name_plural = 'Novas Senhas'
+        ordering =['-created_at']
+
+
+
 
 class Horarios(models.Model):
     HORARIOS = (
@@ -28,9 +53,16 @@ class Horarios(models.Model):
     def __str__(self):
         return self.horarios
 
+    class Meta:
+        permissions = (('view_horarios', 'can see Horarios'),)
+
 class Professor(Funcionario):
     def __str__(self):
         return self.nome
+
+
+    class Meta:
+        permissions = (('view_professor', 'can see professor'),)
 
 class Horario_Professor(models.Model):
     WEEKDAYS = (
@@ -54,11 +86,17 @@ class Horario_Professor(models.Model):
     def __str__(self):
         return self.weekdays + " - " + self.horario.horarios
 
+    class Meta:
+        permissions = (('view_horario_professor', 'can see Horario_professor'),)
+
 class Sala(models.Model):
     sigla = models.CharField("Sigla", max_length=10)
     descricao = models.CharField("Descrição", max_length=100)
     def __str__(self):
         return self.sigla
+
+    class Meta:
+        permissions = (('view_sala', 'can see salas'),)
 
 class Registro_Frequencia(models.Model):
     data_registro = models.DateField("Data do registro", blank=True, null=True)
@@ -70,6 +108,9 @@ class Registro_Frequencia(models.Model):
     def __str__(self):
         return self.horarios.professor.nome + " " + str(self.registro_frequencia)
 
+    class Meta:
+        permissions = (('view_registro_frequencia', 'can see registro frequencia'),)
+
 class Reserva_Sala(models.Model):
     data = models.DateField("Data do Registro")
     sala = models.ForeignKey(Sala, on_delete=models.PROTECT)
@@ -77,6 +118,9 @@ class Reserva_Sala(models.Model):
     horario = models.ForeignKey(Horarios)
     def __str__(self):
         return self.funcionario.nome
+
+    class Meta:
+        permissions = (('view_reserva_Sala', 'can see reserva de sala'),)
 
 class Cancelamento_Registro(models.Model):
     data_cancelamento = models.DateField("Data do cancelamento")
@@ -88,3 +132,7 @@ class Cancelamento_Registro(models.Model):
 
     def __str__(self):
         return self.nome
+
+
+    class Meta:
+        permissions = (('view_cancelamento_registro', 'can see cancelamento_registro'),)

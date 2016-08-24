@@ -8,6 +8,7 @@
         {% csrf_token %}
         {% for field in form %}
             <p><label for="{{ field.name }}">{{ field.label_tag }}</label>
+                {{ filed.password }}
             {{ field |add_class:'form-control'}}
             </p>
         {% endfor %}

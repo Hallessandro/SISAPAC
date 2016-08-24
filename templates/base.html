@@ -53,11 +53,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
+                     {% if perms.appsispac.view_funcionario %}
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Funcionarios <span class="caret"></span></a>
+                    {% endif %}
                       <ul class="dropdown-menu">
+                          {% if perms.appsispac.view_funcionario %}
                         <li><a href="{% url 'funcionario_list' %}">Listar Funcionários</a></li>
+                          {% endif %}
                         <li><a href="{% url 'funcionario_new' %}">Adicionar Funcionarios</a></li>
                       </ul>
+                     {% if perms.appsispac.view_professor%}
                     </li>
                      <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Professores<span class="caret"></span></a>
@@ -67,6 +72,8 @@
                           <li><a href="{% url 'horario_professor_new' %}">Adicionar horário</a></li>
                       </ul>
                     </li>
+                    {% endif %}
+                {% if perms.appsispac.view_funcionario %}
                     <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Registros de Frequência<span class="caret"></span></a>
                       <ul class="dropdown-menu">
@@ -74,11 +81,17 @@
                         <li><a href="{% url 'frequencia_new' %}">Adicionar</a></li>
                       </ul>
                     </li>
+                {% endif %}
                     <li>
                         <a href="#">Reserva de Sala</a>
                     </li>
+                {% if perms.appsispac.view_funcionario %}
                     <li>
                         <a href="#">Administrativo</a>
+                    </li>
+                {% endif %}
+                    <li>
+                        <a href="{% url 'logout' %}">Sair</a>
                     </li>
                 </ul>
             </div>
