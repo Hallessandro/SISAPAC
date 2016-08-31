@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-    <h3>Lista de Funcionários</h3>
+    <h3>Lista de Professores</h3>
     <hr>
     <form action="{%  url 'professor_list' %}" method="get" class="navbar-form navbar-left" role="search">
         <div class="form-group">
@@ -32,7 +32,7 @@
                     <td><a href="{% url 'professor_update' professor.pk %}" class="btn btn-primary">Atualizar</a></td>
                 </tr>
             {% endfor %}
-            
+
         </tbody>
     </table>
 

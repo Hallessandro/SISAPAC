@@ -43,6 +43,37 @@
             position: fixed;
             right: 5%;
         }
+        h3 {
+            color: #1a2732;
+            font-family: "Ubuntu Beta", "Bitstream Vera Sans", DejaVu Sans, Tahoma, sans-serif;
+        }
+        table {
+            color: #1a2732;
+            font-family: "Comic Sans MS";
+        }
+        a {
+            color: #1a2732;
+        }
+        hr {
+            background-color: darkblue;
+        }
+        td {
+            text-align:center;
+            vertical-align:middle;
+        }
+        th{
+            text-align:center;
+            vertical-align:middle;
+        }
+        label {
+            color:black;
+            font-family: "Comic Sans MS";
+            font-size: 13pt;
+        }
+        input {
+            font-size: 12pt;
+            font-family: "Abyssinica SIL";
+        }  
       </style>
   </head>
 
@@ -124,7 +155,7 @@
                       </ul>
                   </li>
 
-                  {% if perms.appsispac.view_funcionario %}
+
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_documents_alt"></i>
@@ -138,7 +169,18 @@
                           <li><a class="" href="{% url 'professor_list' %}">Listar Professores</a></li>
                       </ul>
                   </li>
-                  {% endif %}
+
+
+                    <li class="sub-menu">
+                          <a href="javascript:;" class="">
+                              <i class="icon_desktop"></i>
+                              <span>Horários</span>
+                              <span class="menu-arrow arrow_carrot-right"></span>
+                          </a>
+                          <ul class="sub">
+                              <li><a class="" href="http://127.0.0.1:8000/horario/professor/new/">Cadastrar Horário</a></li>
+                          </ul>
+                    </li>
 
               </ul>
               <!-- sidebar menu end-->

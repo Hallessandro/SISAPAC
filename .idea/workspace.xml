@@ -1,581 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f0b4c4a-54f9-4231-a57e-004842394ced" name="Default" comment="accounts implementação">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/assets/6charts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/assets/html.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/assets/simple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/fakeobjects/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/image/images/noimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/link/images/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/inlineall/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/sample.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/images/mini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-icons_2694e8_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-icons_3d80b3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-icons_72a7cf_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/img/easy-pie-chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/img/progressbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-go/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-python/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/ElegantIcons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/ElegantIcons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/ElegantIcons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/Germany.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/India.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/Russia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/Spain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/arrow-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/avatar-mini.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/avatar-mini2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/avatar-mini3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/avatar-mini4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/avatar1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/avatar1_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/bg-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/chart-texture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/chat-avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/chat-avatar2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/customSelect-arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/geekslabs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/line-icon-c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/line-icon-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/line-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/search-line-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/social.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/weather-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/icons/weather.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/left-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/logo-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/mail-avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/profile-avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/profile-widget-avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/right-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/sample-img-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/sample-img-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/sample-img-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/search-icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/user22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/prettify.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/docs/styles.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/doughnut.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/pie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/polarArea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/radar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/samples/sixup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/assets/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/assets/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/assets/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/chart-master/site/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/CHANGES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/ckeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/contents.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sr-latn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/appendto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/uilanguages/languages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/divreplace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/inlineall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/inlinebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/dialog/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/enterkey/enterkey.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/magicline/magicline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/toolbar/toolbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/readonly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/replacebyclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/replacebycode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample_posteddata.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/tabindex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/uicolor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/uilanguages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/xhtmlstyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_opera.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/styles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/GPL-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/agenda-views.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/basic-views.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/cupertino/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/external-dragging.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/gcal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/json-events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/json.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/selectable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/gcal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/jquery/jquery-1.8.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/jquery/jquery-ui-1.8.23.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/examples/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/examples/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/blueimp-file-upload.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/cors/postmessage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/cors/result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/css/jquery.fileupload-ui-noscript.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/css/jquery.fileupload-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/cors/jquery.postmessage-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/cors/jquery.xdr-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/jquery.fileupload-fp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/jquery.fileupload-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/jquery.fileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/jquery.iframe-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/vendor/canvas-to-blob.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/vendor/load-image.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/js/vendor/tmpl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-go/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-go/app/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-go/static/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-python/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-python/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/gae-python/static/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/node/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/node/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/node/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/node/tmp/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/php/UploadHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/php/files/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/php/files/style-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/php/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-knob/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-knob/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-knob/js/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/jquery-ui-1.10.1.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/jquery-ui-1.10.1.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/jquery-ui-1.10.1.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/jquery-ui-1.10.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-ui/jquery-ui-1.9.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/_template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/area-as-line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/area.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/bar-colors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/bar-no-axes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/days.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/decimal-custom-hover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/diagonal-xlabels-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/diagonal-xlabels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/donut-colors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/donut-formatter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/donut.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/dst.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/goals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/lib/example.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/lib/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/lib/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/lib/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/months-no-smooth.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/negative.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/no-grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/non-continuous.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/non-date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/quarters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/stacked_bars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/timestamps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/updating.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/weeks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/examples/years.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/grunt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/less/morris.core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.area.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.bar.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.donut.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.grid.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.hover.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/lib/morris.line.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/raphael-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/area/area_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/bar/bar_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/bar/colours.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/commas_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/donut/donut_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/grid/auto_grid_lines_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/grid/set_data_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/grid/y_label_format_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/hover_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/label_series_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/line/line_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/pad_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/lib/parse_time_spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/specs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/support/placeholder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/chai-1.3.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/chai-jquery-1.1.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/jquery-1.8.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/mocha-1.6.0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/mocha-1.6.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/raphael-2.1.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/sinon-1.5.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/sinon-chai-2.1.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/elegant-icons-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/jquery-jvectormap-1.2.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/jquery-ui-1.10.4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/line-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/style-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/xcharts.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/ElegantIcons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/additional-methods.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap-switch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap-wysiwyg-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap-wysiwyg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/calendar-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/chartjs-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-other.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-xcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/dynamic-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/easy-pie-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/form-component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/form-validation-script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/ga.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/gdp-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/gritter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-jvectormap-world-mill-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-ui-1.10.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-ui-1.9.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.autosize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.customSelect.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.hotkeys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.localscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.nicescroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.placeholder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.rateit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.scrollTo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.smartWizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.sparkline-11.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.sparkline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.stepy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.tagsinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/lte-ie7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/morris-script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/sliders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/sparkline-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/sparklines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/xcharts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+    <list default="true" id="4f0b4c4a-54f9-4231-a57e-004842394ced" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/img/logosispac.png" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/appsispac/migrations/0001_initial.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sispac/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sispac/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sispac/wsgi.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sispac/__init__.py" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/node/public/files/thumbnail/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/models.py" afterPath="$PROJECT_DIR$/appsispac/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/forms.py" afterPath="$PROJECT_DIR$/appsispac/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/contents.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/ajax.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/api.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/appendto.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/appendto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/posteddata.php" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/posteddata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/sample.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/assets/sample.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/divreplace.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/divreplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/inlineall.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/inlineall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/inlinebycode.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/inlinebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/dialog/dialog.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/dialog/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/enterkey/enterkey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/magicline/magicline.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/magicline/magicline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/toolbar/toolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/readonly.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/readonly.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/replacebyclass.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/replacebyclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/replacebycode.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/replacebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample_posteddata.php" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/sample_posteddata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/tabindex.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/tabindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/uicolor.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/uicolor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/uilanguages.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/uilanguages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/xhtmlstyle.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/samples/xhtmlstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_opera.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/dialog_opera.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/skins/moono/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/styles.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/agenda-views.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/agenda-views.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/default.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/external-dragging.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/external-dragging.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/selectable.html" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/demos/selectable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/jquery/jquery-1.8.1.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/fullcalendar/jquery/jquery-1.8.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/php/files/style-responsive.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/jquery-file-upload/server/php/files/style-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/assets/morris.js-0.4.3/spec/vendor/jquery-1.8.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/css/fullcalendar.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/fullcalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/css/jquery-jvectormap-1.2.2.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/jquery-jvectormap-1.2.2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/css/jquery-ui-1.10.4.min.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/jquery-ui-1.10.4.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/css/line-icons.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/line-icons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/css/style.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/css/widgets.css" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/css/widgets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap-wysiwyg-custom.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/bootstrap-wysiwyg-custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/calendar-custom.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/calendar-custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/chartjs-custom.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/chartjs-custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-flot.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-other.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-other.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-xcharts.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts-xcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/charts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/dynamic-table.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/dynamic-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/easy-pie-chart.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/easy-pie-chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/form-component.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/form-component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/form-validation-script.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/form-validation-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/fullcalendar.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/fullcalendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/fullcalendar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/gdp-data.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/gdp-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/gritter.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/gritter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-1.8.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-jvectormap-1.2.2.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-jvectormap-1.2.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-ui-1.10.4.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery-ui-1.10.4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.autosize.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.autosize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/jquery.slimscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/morris-script.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/morris-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/scripts.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/sliders.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/sliders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/sparkline-chart.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/sparkline-chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/sparklines.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/sparklines.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/static/appsispac/js/xcharts.min.js" afterPath="$PROJECT_DIR$/appsispac/static/appsispac/js/xcharts.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/urls.py" afterPath="$PROJECT_DIR$/appsispac/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appsispac/views.py" afterPath="$PROJECT_DIR$/appsispac/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/frequencia/frequencia_detail.html" afterPath="$PROJECT_DIR$/templates/frequencia/frequencia_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/frequencia/frequencia_list.html" afterPath="$PROJECT_DIR$/templates/frequencia/frequencia_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/funcionario/funcionario_form.html" afterPath="$PROJECT_DIR$/templates/funcionario/funcionario_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/horario/horario_form.html" afterPath="$PROJECT_DIR$/templates/horario/horario_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/professor/professor_form.html" afterPath="$PROJECT_DIR$/templates/professor/professor_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/professor/professor_list.html" afterPath="$PROJECT_DIR$/templates/professor/professor_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/utils/login.html" afterPath="$PROJECT_DIR$/templates/utils/login.html" />
     </list>
@@ -618,18 +211,40 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+            <state relative-caret-position="452">
+              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="professor_list.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/professor/professor_list.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appsispac/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appsispac/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="183" column="38" selection-start-line="183" selection-start-column="38" selection-end-line="183" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funcionario_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/funcionario/funcionario_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -661,11 +276,9 @@
         <option value="$PROJECT_DIR$/appsispac/admin.py" />
         <option value="$PROJECT_DIR$/appsispac/templates/appsispac/funcionario/funcionario_list.html" />
         <option value="$PROJECT_DIR$/appsispac/templates/appsispac/base.html" />
-        <option value="$PROJECT_DIR$/templates/horario/horario_form.html" />
         <option value="$PROJECT_DIR$/templates/funcionario/funcionario_list.html" />
         <option value="$PROJECT_DIR$/templates/professor/professor_detail.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/templates/professor/professor_form.html" />
         <option value="$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/register.html" />
         <option value="$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/login.html" />
         <option value="$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/password_reset.html" />
@@ -680,22 +293,24 @@
         <option value="$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/password_reset_confirm.html" />
         <option value="$PROJECT_DIR$/../Simplemooc/Simplemooc/settings.py" />
         <option value="$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/forms.py" />
-        <option value="$PROJECT_DIR$/appsispac/forms.py" />
         <option value="$PROJECT_DIR$/../mysite/blog/forms.py" />
         <option value="$PROJECT_DIR$/appsispac/sispac/settings.py" />
         <option value="$PROJECT_DIR$/sispac/settings.py" />
-        <option value="$PROJECT_DIR$/templates/utils/login.html" />
         <option value="$PROJECT_DIR$/templates/funcionario/funcionario_form.html" />
         <option value="$PROJECT_DIR$/appsispac/testes.py" />
         <option value="$PROJECT_DIR$/templates/frequencia/frequencia_detail.html" />
-        <option value="$PROJECT_DIR$/appsispac/urls.py" />
         <option value="$PROJECT_DIR$/appsispac/models.py" />
         <option value="$PROJECT_DIR$/templates/frequencia/frequencia_list.html" />
         <option value="$PROJECT_DIR$/appsispac/teste.py" />
         <option value="$PROJECT_DIR$/templates/frequencia/teste.html" />
-        <option value="$PROJECT_DIR$/appsispac/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/professor/professor_list.html" />
+        <option value="$PROJECT_DIR$/templates/utils/login.html" />
+        <option value="$PROJECT_DIR$/templates/horario/horario_form.html" />
+        <option value="$PROJECT_DIR$/appsispac/forms.py" />
+        <option value="$PROJECT_DIR$/templates/professor/professor_form.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/appsispac/views.py" />
+        <option value="$PROJECT_DIR$/appsispac/urls.py" />
       </list>
     </option>
   </component>
@@ -802,6 +417,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="horario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISAPAC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISAPAC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="funcionario" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -856,6 +489,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISAPAC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISAPAC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appsispac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -890,11 +541,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appsispac/static/appsispac/img" />
       <recent name="$PROJECT_DIR$/appsispac/static/appsispac/js" />
       <recent name="$PROJECT_DIR$/appsispac/static/appsispac/css" />
       <recent name="$PROJECT_DIR$/appsispac/static/appsispac" />
       <recent name="$PROJECT_DIR$/appsispac/static" />
-      <recent name="$PROJECT_DIR$/static/appsispac" />
     </key>
   </component>
   <component name="RunManager" selected="Python.teste">
@@ -1233,16 +884,23 @@
       <option name="project" value="LOCAL" />
       <updated>1471638834225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementando o template">
+      <created>1472603737214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1472603737214</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18754804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16602613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1311,7 +969,8 @@
     <MESSAGE value="Static" />
     <MESSAGE value="accounts implementação" />
     <MESSAGE value="permissões" />
-    <option name="LAST_COMMIT_MESSAGE" value="permissões" />
+    <MESSAGE value="Implementando o template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando o template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,8 +979,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/edit.html" />
-    <entry file="file://$PROJECT_DIR$/../Simplemooc/Simplemooc/core/utils.py" />
     <entry file="file://$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/register.html" />
     <entry file="file://$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/password_reset.html" />
     <entry file="file://$PROJECT_DIR$/../Simplemooc/Simplemooc/accounts/templates/accounts/password_reset_email.html" />
@@ -1357,12 +1014,9 @@
     <entry file="file://$PROJECT_DIR$/static/appsispac/index.css" />
     <entry file="file://$PROJECT_DIR$/static/index.css" />
     <entry file="file://$PROJECT_DIR$/appsispac/static/index.css" />
-    <entry file="file://$PROJECT_DIR$/templates/utils/login.html" />
     <entry file="file://$PROJECT_DIR$/appsispac/static/appsispac/index.css" />
-    <entry file="file://$PROJECT_DIR$/appsispac/forms.py" />
     <entry file="file://$PROJECT_DIR$/appsispac/static/appsispac/assets/ckeditor/lang/af.js" />
     <entry file="file://$PROJECT_DIR$/appsispac/static/appsispac/css/bootstrap.min.css" />
-    <entry file="file://$PROJECT_DIR$/templates/funcionario/funcionario_form.html" />
     <entry file="file://$PROJECT_DIR$/sispac/settings.py" />
     <entry file="file://$PROJECT_DIR$/appsispac/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1408,16 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appsispac/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="264" column="30" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/frequencia/teste.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1434,14 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appsispac/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appsispac/static/appsispac/js/additional-methods.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1450,26 +1086,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/utils/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        <state relative-caret-position="-44">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/funcionario/funcionario_list.html">
+    <entry file="file://$PROJECT_DIR$/templates/horario/horario_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="8" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="352">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/professor/professor_list.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsispac/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/funcionario/funcionario_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/funcionario/funcionario_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/professor/professor_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsispac/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="183" column="38" selection-start-line="183" selection-start-column="38" selection-end-line="183" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsispac/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>

@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <title>Login SISAPAC</title>
       <link rel="stylesheet" href="{% static "appsispac/css/index.css" %}">
+      <style>
+          #logo {
+              height: 80px;
+              width: 40%;
+          }
+      </style>
   </head>
 
   <body>
@@ -15,6 +21,7 @@
         {% load widget_tweaks %}
 		<form action="{% url "login" %}" method="post" role="form">
             {% csrf_token %}
+            <img src="{% static "appsispac/img/logosispac.png" %}" id="logo">
 			<h1>SISAPAC</h1>
 			<div>
 				<label for="{{ form.username.id_for_label }}">Usuário:</label>

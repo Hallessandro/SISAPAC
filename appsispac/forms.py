@@ -7,12 +7,12 @@ from appsispac.mail import send_mail_template
 from .models import PasswordReset
 
 class FuncionarioForm(ModelForm):
-    senha = forms.CharField(label='Senha', widget=forms.PasswordInput)
+    #senha = forms.CharField(label='Senha', widget=forms.PasswordInput)
     class Meta:
         model = Funcionario
         fields=('nome','matricula','Email','senha')
 
-
+'''
 class PasswordResetForm(forms.Form):
 
     email = forms.EmailField(label='E-mail')
@@ -36,9 +36,10 @@ class PasswordResetForm(forms.Form):
             'reset': reset,
         }
         send_mail_template(subject, template_name, context, [funcionario.Email])
+'''
 
 class ProfessorForm(ModelForm):
-    senha = forms.CharField(label='Senha', widget=forms.PasswordInput)
+    #senha = forms.CharField(label='Senha', widget=forms.PasswordInput)
     class Meta:
         model = Professor
         fields = ('nome', 'matricula', 'senha')
@@ -46,7 +47,7 @@ class ProfessorForm(ModelForm):
 class HorarioProfessorForm(ModelForm):
     class Meta:
         model = Horario_Professor
-        fields = ('weekdays', 'horario', 'turma', 'disciplina','professor')
+        fields = ('weekdays', 'horario', 'turma', 'disciplina','professor', 'sala')
 
 class Registro_FrequenciaForm(ModelForm):
     class Meta:

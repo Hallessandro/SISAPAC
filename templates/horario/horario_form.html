@@ -6,10 +6,14 @@
     <form action="{% url 'horario_professor_new' %}" method="POST" class="form form-group">
         {% csrf_token %}
         {% for field in form %}
-            <p><label for="{{ field.name }}">{{ field.label_tag }}</label>
+            {% if field.label == 'Weekdays' %}
+                <p><label for="Weekdays">Dia da semana</label></p>
+            {% else %}
+                <p><label for="{{ field.name }}">{{ field.label_tag }}</label>
+            {% endif %}
             {{ field |add_class:'form-control'}}
             </p>
         {% endfor %}
-        <input type="submit" class="btn btn-success">
+        <input type="submit" class="btn btn-primary btn-lg">
     </form>
 {% endblock %}

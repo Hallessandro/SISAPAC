@@ -3,13 +3,13 @@ from appsispac.views import *
 from django.contrib.auth.views import login,logout
 
 urlpatterns = [
-	url(r'^$', home, name='home'),
-	url(r'^login/', login, {'template_name': 'utils/login.html', 'redirect_field_name': 'home'}, name='login'),
-	url(r'^logout/$', logout, {'next_page': 'home'}, name='logout'),
-	url(r'^erro_permissao/$', erro_permissao, name='erro_permissao'),
+	url(r'^home/$', home, name='home'),
+	url(r'^$', login, {'template_name': 'utils/login.html', 'redirect_field_name': 'home'}, name='login'),
+	url(r'^logout/$', logout, {'next_page': 'login'}, name='logout'),
+	#url(r'^erro_permissao/$', erro_permissao, name='erro_permissao'),
 
-	url(r'^nova-senha/$', 'appsispac.views.password_reset',name='password_reset'),
-    url(r'^confirmar-nova-senha/(?P<key>\w+)$', 'appsispac.views.password_reset_confirm', name='password_reset_confirm'),
+	#url(r'^nova-senha/$', 'appsispac.views.password_reset',name='password_reset'),
+    #url(r'^confirmar-nova-senha/(?P<key>\w+)$', 'appsispac.views.password_reset_confirm', name='password_reset_confirm'),
 
 	#Rotas de funcionarios
 	url(r'^funcionario/list$', funcionario_list, name='funcionario_list'),

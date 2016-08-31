@@ -1,18 +1,15 @@
 {% extends 'base.html' %}
 {% load widget_tweaks %}
 {% block conteudo %}
-    <h2>Adicionar Professor</h2>
+    <h3>Adicionar Professor</h3>
     <hr>
-
-     <form method="POST" class="form form-group">
+     <form method="POST" class="form form-group" role="form">
         {% csrf_token %}
         {% for field in form %}
             <p><label for="{{ field.name }}">{{ field.label_tag }}</label>
-                {{ filed.password }}
             {{ field |add_class:'form-control'}}
             </p>
         {% endfor %}
-        <input type="submit" class="btn btn-success">
+        <input type="submit" class="btn btn-primary btn-lg" value="Salvar">
     </form>
-
 {% endblock %}
