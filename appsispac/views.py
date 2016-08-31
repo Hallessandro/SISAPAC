@@ -257,8 +257,14 @@ def frequencia_new(request):
         frequencia.horarios = h.horario
         frequencia.registro_frequencia = False
         frequencia.horario = h
-        frequencia.save()
-
+        exists = False
+        for f in frequencias:
+            if(frequencia.horario.professor.matricula == f.horario.professor.matricula
+               and frequencia.sala == f.sala and frequencia.data_frequencia == f.data_frequencia
+               and frequencia.horarios == f.horarios):
+                exists = True
+        if(exists == False):
+            frequencia.save()
     return redirect('frequencia_list_geral')
 
 #@permission_required('appsispac.add_frequencia_register',login_url='erro_permissao')

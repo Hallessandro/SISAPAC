@@ -4,7 +4,7 @@ from django import forms
 from appsispac.models import *
 from appsispac.utils import generate_hash_key
 from appsispac.mail import send_mail_template
-from .models import PasswordReset
+#from .models import PasswordReset
 
 class FuncionarioForm(ModelForm):
     #senha = forms.CharField(label='Senha', widget=forms.PasswordInput)

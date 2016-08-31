@@ -5,17 +5,17 @@ from django.conf import settings
 
 class Funcionario(User):
     nome = models.CharField("Nome", max_length=200)
-    matricula = models.IntegerField("Matricula",unique=True)
+    matricula = models.IntegerField("Matricula",unique=False)
     Email = models.EmailField("E-Mail", max_length=200)
     senha = models.CharField(max_length=32)
 
-    class Meta:
-        permissions = (('view_funcionario','can see funcionario'),)
+    #class Meta:
+     #   permissions = (('view_funcionario','can see funcionario'),)
 
 
     def __str__(self):
         return self.nome
-
+'''
 class PasswordReset(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
     verbose_name='Usuário',related_name='resets')
@@ -29,13 +29,13 @@ class PasswordReset(models.Model):
         verbose_name= 'Nova Senha'
         verbose_name_plural = 'Novas Senhas'
         ordering =['-created_at']
-
+'''
 class Professor(Funcionario):
     def __str__(self):
         return self.nome
 
-    class Meta:
-        permissions = (('view_professor', 'can see professor'),)
+   # class Meta:
+    #    permissions = (('view_professor', 'can see professor'),)
 
 class Sala(models.Model):
     sigla = models.CharField("Sigla", max_length=10)
@@ -43,8 +43,8 @@ class Sala(models.Model):
     def __str__(self):
         return self.sigla
 
-    class Meta:
-        permissions = (('view_sala', 'can see salas'),)
+    #class Meta:
+     #   permissions = (('view_sala', 'can see salas'),)
 
 class Horario_Professor(models.Model):
     WEEKDAYS = (
@@ -84,8 +84,8 @@ class Horario_Professor(models.Model):
     def __str__(self):
         return self.weekdays + " - " + self.horario
 
-    class Meta:
-        permissions = (('view_horario_professor', 'can see Horario_professor'),)
+#    class Meta:
+ #       permissions = (('view_horario_professor', 'can see Horario_professor'),)
 
 class Registro_Frequencia(models.Model):
     data_registro = models.DateField("Data do registro", blank=True, null=True)
@@ -113,8 +113,8 @@ class Registro_Frequencia(models.Model):
     def __str__(self):
         return self.horario.professor.nome + " " + str(self.registro_frequencia)
 
-    class Meta:
-        permissions = (('view_registro_frequencia', 'can see registro frequencia'),)
+   # class Meta:
+    #    permissions = (('view_registro_frequencia', 'can see registro frequencia'),)
 
 class Reserva_Sala(models.Model):
     data = models.DateField("Data do Registro")
@@ -139,8 +139,8 @@ class Reserva_Sala(models.Model):
     def __str__(self):
         return self.funcionario.nome
 
-    class Meta:
-        permissions = (('view_reserva_Sala', 'can see reserva de sala'),)
+    #class Meta:
+    #    permissions = (('view_reserva_Sala', 'can see reserva de sala'),)
 
 class Cancelamento_Registro(models.Model):
     data_cancelamento = models.DateField("Data do cancelamento")
@@ -154,5 +154,5 @@ class Cancelamento_Registro(models.Model):
         return self.nome
 
 
-    class Meta:
-        permissions = (('view_cancelamento_registro', 'can see cancelamento_registro'),)
+    #class Meta:
+    #    permissions = (('view_cancelamento_registro', 'can see cancelamento_registro'),)

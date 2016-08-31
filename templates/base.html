@@ -99,7 +99,7 @@
                             <span class="profile-ava">
                                 <img alt="" src="img/avatar1_small.jpg">
                             </span>
-                            <span class="username">Hallessandro</span>
+                            <span class="username">{{ request.user }}</span>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu extended logout">
@@ -139,7 +139,7 @@
                       </a>
                       <ul class="sub">
                           <li><a class="" href="{% url 'frequencia_list' %}">Frequências do Dia</a></li>
-                          <li><a class="" href="{% url 'frequencia_list_geral' %}">Listar todas</a></li>
+                          <li><a class="" href="{% url 'frequencia_new' %}">Listar todas</a></li>
                       </ul>
                   </li>
 
@@ -194,6 +194,7 @@
                 <div class="col-md-9  text-center" id="conteudo">
                   {% block conteudo %}
                       <h3>Bem vindo ao Sistema de Apoio Acadêmico</h3>
+                      <h3>{{ datetime.date.today }}</h3>
                   {% endblock %}
                 </div>
             </div>
