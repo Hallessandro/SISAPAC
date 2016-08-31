@@ -1,3 +1,5 @@
+from calendar import weekday
+
 from django.core.paginator import PageNotAnInteger, EmptyPage, Paginator
 from django.http import HttpResponse
 from django.shortcuts import render,redirect,get_object_or_404
@@ -44,10 +46,7 @@ def funcionario_new(request):
     if(request.method=='POST'):
         form=FuncionarioForm(request.POST)
         if(form.is_valid()):
-            funcionario=form.save(commit=False)
-            funcionario.username=funcionario.matricula
-            funcionario.set_password(funcionario.senha)
-            funcionario.save()
+            funcionario = form.save()
             grupoFuncionario = Group.objects.get(name='funcionario')
             grupoFuncionario.user_set.add(funcionario)
             return redirect('funcionario_list')
@@ -212,7 +211,21 @@ def frequencia_list(request):
         day = "SEX"
     else:
         day = "Dia inválido"
-    frequencias = Registro_Frequencia.objects.filter(horarios__weekdays__contains=day)
+    frequencias = Registro_Frequencia.objects.filter(horario__weekdays=day)
+    paginator = Paginator(frequencias, 5)
+    page = request.GET.get('page')
+    try:
+        frequencias = paginator.page(page)
+    except PageNotAnInteger:
+        frequencias = paginator.page(1)
+    except EmptyPage:
+        frequencias = paginator.page(paginator.num_pages)
+    dados = {'frequencias': frequencias, 'paginator': paginator, 'page_obj': frequencias}
+    return render(request, 'frequencia/frequencia_list.html', dados)
+
+@permission_required('appsispac.view_registro_frequencia',login_url='erro_permissao')
+def frequencia_list_geral(request):
+    frequencias = Registro_Frequencia.objects.all()
     paginator = Paginator(frequencias, 5)
     page = request.GET.get('page')
     try:
@@ -228,15 +241,31 @@ def frequencia_list(request):
 def frequencia_new(request):
     today = DT.date.today()
     dayofweek = today.strftime("%A")
-    if(request.method == "POST"):
-        form = Registro_FrequenciaForm(request.POST)
-        if(form.is_valid()):
-            form.save()
-            return redirect('frequencia_list')
+    day = ""
+    if (dayofweek == "Monday"):
+        day = "SEG"
+    elif (dayofweek == "Tuesday"):
+        day = "TER"
+    elif (dayofweek == "Wednesday"):
+        day = "QUA"
+    elif (dayofweek == "Thursday"):
+        day = "QUI"
+    elif (dayofweek == "Friday"):
+        day = "SEX"
     else:
-        form = Registro_FrequenciaForm()
-        dados = {'form':form}
-        return render(request,'frequencia/frequencia_form.html', dados)
+        day = "Dia inválido"
+    horarios = Horario_Professor.objects.filter(weekdays=day)
+    frequencias = Registro_Frequencia.objects.all()
+    for h in horarios:
+        frequencia = Registro_Frequencia()
+        frequencia.data_frequencia = today
+        frequencia.sala = h.sala
+        frequencia.horarios = h.horario
+        frequencia.registro_frequencia = False
+        frequencia.horario = h
+        frequencia.save()
+
+    return redirect('frequencia_list_geral')
 
 @permission_required('appsispac.add_frequencia_register',login_url='erro_permissao')
 def frequencia_register(request, pk):

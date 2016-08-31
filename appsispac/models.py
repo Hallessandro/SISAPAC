@@ -30,39 +30,21 @@ class PasswordReset(models.Model):
         verbose_name_plural = 'Novas Senhas'
         ordering =['-created_at']
 
-
-
-
-class Horarios(models.Model):
-    HORARIOS = (
-        ('Vazio', 'Indefinido'),
-        ('07:00 - 08:30', '07:00 - 08:30'),
-        ('08:50 - 10:20', '08:50 - 10:20'),
-        ('10:30 - 12:00', '10:30 - 12:00'),
-        ('13:00 - 14:30', '13:00 - 14:30'),
-        ('14:50 - 16:20', '14:50 - 16:20'),
-        ('16:30 - 18:00', '16:30 - 18:00'),
-        ('18:00 - 19:50', '18:00 - 19:50'),
-        ('20:00 - 22:00', '20:00 - 22:00'),
-    )
-    horarios = models.CharField(
-        max_length=30,
-        choices=HORARIOS,
-        default='Vazio',
-    )
-    def __str__(self):
-        return self.horarios
-
-    class Meta:
-        permissions = (('view_horarios', 'can see Horarios'),)
-
 class Professor(Funcionario):
     def __str__(self):
         return self.nome
 
-
     class Meta:
         permissions = (('view_professor', 'can see professor'),)
+
+class Sala(models.Model):
+    sigla = models.CharField("Sigla", max_length=10)
+    descricao = models.CharField("Descrição", max_length=100)
+    def __str__(self):
+        return self.sigla
+
+    class Meta:
+        permissions = (('view_sala', 'can see salas'),)
 
 class Horario_Professor(models.Model):
     WEEKDAYS = (
@@ -97,21 +79,13 @@ class Horario_Professor(models.Model):
     turma = models.CharField("Turma", max_length=150)
     disciplina = models.CharField("Disciplina", max_length=255)
     professor = models.ForeignKey(Professor, on_delete=models.PROTECT)
+    sala = models.ForeignKey(Sala, on_delete=models.PROTECT)
 
     def __str__(self):
-        return self.weekdays + " - " + self.horario.horarios
+        return self.weekdays + " - " + self.horario
 
     class Meta:
         permissions = (('view_horario_professor', 'can see Horario_professor'),)
-
-class Sala(models.Model):
-    sigla = models.CharField("Sigla", max_length=10)
-    descricao = models.CharField("Descrição", max_length=100)
-    def __str__(self):
-        return self.sigla
-
-    class Meta:
-        permissions = (('view_sala', 'can see salas'),)
 
 class Registro_Frequencia(models.Model):
     data_registro = models.DateField("Data do registro", blank=True, null=True)
@@ -134,9 +108,10 @@ class Registro_Frequencia(models.Model):
         choices=HORARIOS,
         default='Vazio',
     )
+    horario = models.ForeignKey(Horario_Professor, on_delete=models.PROTECT)
     registro_frequencia = models.BooleanField("Registro de Frequência", default=False)
     def __str__(self):
-        return self.horarios.professor.nome + " " + str(self.registro_frequencia)
+        return self.horario.professor.nome + " " + str(self.registro_frequencia)
 
     class Meta:
         permissions = (('view_registro_frequencia', 'can see registro frequencia'),)

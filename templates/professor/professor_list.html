@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% block conteudo %}
+    <h3>Lista de Funcionários</h3>
+    <hr>
     <form action="{%  url 'professor_list' %}" method="get" class="navbar-form navbar-left" role="search">
         <div class="form-group">
             <input type="text" id="criterio" name= "criterio" value="{{ criterio }}" placeholder="Nome do Professor" class="form-control">

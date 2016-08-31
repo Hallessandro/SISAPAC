@@ -17,7 +17,7 @@
         <tbody>
         {% for f in frequencias %}
             <tr>
-                <td>{{ f.horarios.professor.nome }}</td>
+                <td>{{ f.horario.professor.nome }}</td>
                 <td>{{ f.horarios }}</td>
                 <td>{{ f.data_frequencia }}</td>
                 <td>{{ f.sala }}</td>
@@ -47,4 +47,5 @@
         {% endfor %}
         </tbody>
     </table>
+    {% include 'utils/paginacao.html' %}
 {% endblock %}

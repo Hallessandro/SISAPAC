@@ -27,6 +27,7 @@ urlpatterns = [
 	#Rotas de frequencia
 	url(r'^frequencia/new/$', frequencia_new, name='frequencia_new'),
 	url(r'^frequencia/list$', frequencia_list, name='frequencia_list'),
+	url(r'^frequencia/list/geral$', frequencia_list_geral, name='frequencia_list_geral'),
 	url(r'^frequencia/register/(?P<pk>\d+)$', frequencia_register, name='frequencia_register'),
 	url(r'^frequencia/detail/(?P<pk>\d+)$', frequencia_detail, name='frequencia_detail'),
 

@@ -1,126 +1,251 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="{% static "appsispac/img/favicon.png"%}">
 
     <title>SISAPAC</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
+    <!-- Bootstrap CSS -->
+    <link href="{% static "appsispac/css/bootstrap.min.css" %}" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="{% static "appsispac/css/bootstrap-theme.css" %}" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="{% static "appsispac/css/elegant-icons-style.css"%}" rel="stylesheet" />
+    <link href="{% static "appsispac/css/font-awesome.min.css" %}" rel="stylesheet" />
+    <!-- full calendar css-->
+    <link href="{% static "appsispac/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css"%}" rel="stylesheet" />
+	<link href="{% static "appsispac/assets/fullcalendar/fullcalendar/fullcalendar.css"%}" rel="stylesheet" />
+    <!-- easy pie chart-->
+    <link href="{% static "appsispac/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" %}" type="text/css" media="screen"/>
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="{% static "appsispac/css/owl.carousel.css" %}" type="text/css">
+	<link href="{% static "appsispac/css/jquery-jvectormap-1.2.2.css"%}" rel="stylesheet">
+    <!-- Custom styles -->
+	<link rel="stylesheet" href="{% static "appsispac/css/fullcalendar.css" %}">
+	<link href="{% static "appsispac/css/widgets.css" %}" rel="stylesheet">
+    <link href="{% static "appsispac/css/style.css"%}" rel="stylesheet">
+    <link href="{% static "appsispac/css/style-responsive.css" %}" rel="stylesheet" />
+	<link href="{% static "appsispac/css/xcharts.min.css" %}" rel=" stylesheet">
+	<link href="{% static "appsispac/css/jquery-ui-1.10.4.min.css"%}" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+      <style>
+        #content {
+            padding-top: 5%;
+        }
+        #conteudo {
+            position: fixed;
+            right: 5%;
+        }
+      </style>
+  </head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-<!-- Latest compiled and minified CSS -->
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</head>
 
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{% url 'home' %}">SISAPAC</a>
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+
+            <!--logo start-->
+            <a href="{% url 'home' %}" class="logo">SISAPAC</a>
+            <!--logo end-->
+
+            <div class="top-nav notification-row">
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
                     <li class="dropdown">
-                     {% if perms.appsispac.view_funcionario %}
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Funcionarios <span class="caret"></span></a>
-                    {% endif %}
-                      <ul class="dropdown-menu">
-                          {% if perms.appsispac.view_funcionario %}
-                        <li><a href="{% url 'funcionario_list' %}">Listar Funcionários</a></li>
-                          {% endif %}
-                        <li><a href="{% url 'funcionario_new' %}">Adicionar Funcionarios</a></li>
-                      </ul>
-                     {% if perms.appsispac.view_professor%}
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/avatar1_small.jpg">
+                            </span>
+                            <span class="username">Hallessandro</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li class="eborder-top">
+                                <a href="#"><i class="icon_profile"></i> Meu Perfil</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'logout' %}"><i class="icon_key_alt"></i> Sair</a>
+                            </li>
+                        </ul>
                     </li>
-                     <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Professores<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="{% url 'professor_list' %}">Listar</a></li>
-                        <li><a href="{% url 'professor_new' %}">Adicionar</a></li>
-                          <li><a href="{% url 'horario_professor_new' %}">Adicionar horário</a></li>
-                      </ul>
-                    </li>
-                    {% endif %}
-                {% if perms.appsispac.view_funcionario %}
-                    <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Registros de Frequência<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="{% url 'frequencia_list' %}">Listar</a></li>
-                        <li><a href="{% url 'frequencia_new' %}">Adicionar</a></li>
-                      </ul>
-                    </li>
-                {% endif %}
-                    <li>
-                        <a href="#">Reserva de Sala</a>
-                    </li>
-                {% if perms.appsispac.view_funcionario %}
-                    <li>
-                        <a href="#">Administrativo</a>
-                    </li>
-                {% endif %}
-                    <li>
-                        <a href="{% url 'logout' %}">Sair</a>
-                    </li>
+                    <!-- user login dropdown end -->
                 </ul>
+                <!-- notificatoin dropdown end-->
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+      </header>
+      <!--header end-->
 
-    <!-- Page Content -->
-    <div class="container">
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">
+                  <li class="active">
+                      <a class="" href="{% url 'home' %}">
+                          <i class="icon_house_alt"></i>
+                          <span>Pagina Inicial</span>
+                      </a>
+                  </li>
 
-        <div class="row">
-            <div class="col-lg-12 text-center">
-              {% block conteudo %}
-                  <h3>Bem vindo ao Sistema de Apoio Acadêmico</h3>
-              {% endblock %}
+				  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_document_alt"></i>
+                          <span>Frequências</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="{% url 'frequencia_list' %}">Frequências do Dia</a></li>
+                          <li><a class="" href="{% url 'frequencia_list_geral' %}">Listar todas</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_table"></i>
+                          <span>Reservar Sala</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="#">Reservar sala</a></li>
+                          <li><a class="" href="#">Listar Reservas</a></li>
+                      </ul>
+                  </li>
+
+                  {% if perms.appsispac.view_funcionario %}
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_documents_alt"></i>
+                          <span>Funcionários</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="{% url 'funcionario_new' %}">Adicionar Funcionário</a></li>
+                          <li><a class="" href="{% url 'professor_new' %}"><span>Adicionar Professor</span></a></li>
+                          <li><a class="" href="{% url 'funcionario_list' %}">Listar Funcionários</a></li>
+                          <li><a class="" href="{% url 'professor_list' %}">Listar Professores</a></li>
+                      </ul>
+                  </li>
+                  {% endif %}
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+        <!-- Page Content -->
+        <div class="container" id="content">
+
+            <div class="row" id="teste">
+                <div class="col-md-9  text-center" id="conteudo">
+                  {% block conteudo %}
+                      <h3>Bem vindo ao Sistema de Apoio Acadêmico</h3>
+                  {% endblock %}
+                </div>
             </div>
-        </div>
-        <!-- /.row -->
+            <!-- /.row -->
 
-    </div>
+        </div>
     <!-- /.container -->
+    <!-- javascripts -->
+    <script src="{% static "appsispac/js/jquery.js" %}"></script>
+	<script src="{% static "appsispac/js/jquery-ui-1.10.4.min.js" %}"></script>
+    <script src="{% static "appsispac/js/jquery-1.8.3.min.js" %}"></script>
+    <script type="text/javascript" src="{% static "appsispac/js/jquery-ui-1.9.2.custom.min.js"%}"></script>
+    <!-- bootstrap -->
+    <script src="{% static "appsispac/js/bootstrap.min.js"%}"></script>
+    <!-- nice scroll -->
+    <script src="{% static "appsispac/js/jquery.scrollTo.min.js" %}"></script>
+    <script src="{% static "appsispac/js/jquery.nicescroll.js" %}" type="text/javascript"></script>
+    <!-- charts scripts -->
+    <script src="{% static "appsispac/assets/jquery-knob/js/jquery.knob.js" %}"></script>
+    <script src="{% static "appsispac/js/jquery.sparkline.js"%}" type="text/javascript"></script>
+    <script src="{% static "appsispac/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"%}"></script>
+    <script src="{% static "appsispac/js/owl.carousel.js"%}" ></script>
+    <!-- jQuery full calendar -->
+    <<script src="{% static "appsispac/js/fullcalendar.min.js"%}" ></script> <!-- Full Google Calendar - Calendar -->
+	<script src="{% static "appsispac/assets/fullcalendar/fullcalendar/fullcalendar.js"%}"></script>
+    <!--script for this page only-->
+    <script src="{% static "appsispac/js/calendar-custom.js"%}"></script>
+	<script src="{% static "appsispac/js/jquery.rateit.min.js"%}"></script>
+    <!-- custom select -->
+    <script src="{% static "appsispac/js/jquery.customSelect.min.js"%}" ></script>
+	<script src="{% static "appsispac/assets/chart-master/Chart.js"%}"></script>
 
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
+    <!--custome script for all page-->
+    <script src="{% static "appsispac/js/scripts.js"%}"></script>
+    <!-- custom script for this page-->
+    <script src="{% static "appsispac/js/sparkline-chart.js"%}"></script>
+    <script src="{% static "appsispac/js/easy-pie-chart.js"%}"></script>
+	<script src="{% static "appsispac/js/jquery-jvectormap-1.2.2.min.js"%}"></script>
+	<script src="{% static "appsispac/js/jquery-jvectormap-world-mill-en.js"%}"></script>
+	<script src="{% static "appsispac/js/xcharts.min.js"%}"></script>
+	<script src="{% static "appsispac/js/jquery.autosize.min.js"%}"></script>
+	<script src="{% static "appsispac/js/jquery.placeholder.min.js" %}"></script>
+	<script src="{% static "appsispac/js/gdp-data.js"%}"></script>
+	<script src="{% static "appsispac/js/morris.min.js"%}"></script>
+	<script src="{% static "appsispac/js/sparklines.js"%}"></script>
+	<script src="{% static "appsispac/js/charts.js"%}"></script>
+	<script src="{% static "appsispac/js/jquery.slimscroll.min.js"%}"></script>
+  <script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="http://malsup.github.com/jquery.form.js"></script>
-</body>
+      //knob
+      $(function() {
+        $(".knob").knob({
+          'draw' : function () {
+            $(this.i).val(this.cv + '%')
+          }
+        })
+      });
 
+      //carousel
+      $(document).ready(function() {
+          $("#owl-slider").owlCarousel({
+              navigation : true,
+              slideSpeed : 300,
+              paginationSpeed : 400,
+              singleItem : true
+
+          });
+      });
+
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+	  /* ---------- Map ---------- */
+	$(function(){
+	  $('#map').vectorMap({
+	    map: 'world_mill_en',
+	    series: {
+	      regions: [{
+	        values: gdpData,
+	        scale: ['#000', '#000'],
+	        normalizeFunction: 'polynomial'
+	      }]
+	    },
+		backgroundColor: '#eef3f7',
+	    onLabelShow: function(e, el, code){
+	      el.html(el.html()+' (GDP - '+gdpData[code]+')');
+	    }
+	  });
+	});
+
+  </script>
+
+  </body>
 </html>
